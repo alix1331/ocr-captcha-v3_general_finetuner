@@ -1,0 +1,14 @@
+# Requirements for finetune_general.py
+#
+# GPU vs CPU torch:
+#   The line below installs whatever default PyPI build fits your platform.
+#   For a specific CUDA version, install torch first following the selector
+#   at https://pytorch.org/get-started/locally/ , then run
+#   `pip install -r requirements.txt --no-deps` for the rest, or just
+#   comment the torch line out here.
+
+#torch>=2.2
+transformers>=4.41
+pandas>=2.0
+numpy>=1.24
+Pillow>=10.0
